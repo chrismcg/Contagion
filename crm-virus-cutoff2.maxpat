@@ -199,7 +199,7 @@
 , 			{
 				"box" : 				{
 					"maxclass" : "live.dial",
-					"varname" : "Cutoff2 Relative",
+					"varname" : "Cutoff 2 Relative",
 					"outlettype" : [ "", "float" ],
 					"patching_rect" : [ 85.0, 212.0, 44.0, 47.0 ],
 					"presentation" : 1,
@@ -214,7 +214,7 @@
 							"parameter_initial_enable" : 0,
 							"parameter_shortname" : "Cutoff2R",
 							"parameter_modmax" : 63.0,
-							"parameter_longname" : "Cutoff2 Relative",
+							"parameter_longname" : "Cutoff 2 Relative",
 							"parameter_modmin" : -64.0,
 							"parameter_linknames" : 1,
 							"parameter_modmode" : 4,
@@ -425,8 +425,8 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-3" : [ "Cutoff2 Relative", "Cutoff2R", 0 ],
-			"obj-6" : [ "Cutoff 2 Absolute", "Cutoff2A", 0 ]
+			"obj-6" : [ "Cutoff 2 Absolute", "Cutoff2A", 0 ],
+			"obj-3" : [ "Cutoff 2 Relative", "Cutoff2R", 0 ]
 		}
 
 	}
