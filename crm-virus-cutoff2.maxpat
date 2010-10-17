@@ -2,6 +2,7 @@
 	"patcher" : 	{
 		"fileversion" : 1,
 		"rect" : [ 386.0, 119.0, 640.0, 480.0 ],
+		"bgcolor" : [ 0.694118, 0.694118, 0.694118, 1.0 ],
 		"bglocked" : 0,
 		"defrect" : [ 386.0, 119.0, 640.0, 480.0 ],
 		"openrect" : [ 0.0, 0.0, 0.0, 0.0 ],
@@ -19,6 +20,42 @@
 		"enablevscroll" : 1,
 		"devicewidth" : 0.0,
 		"boxes" : [ 			{
+				"box" : 				{
+					"maxclass" : "comment",
+					"text" : "Cutoff 2",
+					"patching_rect" : [ 61.0, 178.0, 140.0, 18.0 ],
+					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"numoutlets" : 0,
+					"presentation" : 1,
+					"frgb" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"fontface" : 1,
+					"fontsize" : 10.0,
+					"presentation_rect" : [ 50.0, 35.0, 49.0, 18.0 ],
+					"id" : "obj-5",
+					"fontname" : "Arial",
+					"numinlets" : 1
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"maxclass" : "comment",
+					"text" : "Offset",
+					"patching_rect" : [ 46.0, 163.0, 140.0, 18.0 ],
+					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"numoutlets" : 0,
+					"presentation" : 1,
+					"frgb" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"fontface" : 1,
+					"fontsize" : 10.0,
+					"presentation_rect" : [ 5.0, 35.0, 39.0, 18.0 ],
+					"id" : "obj-2",
+					"fontname" : "Arial",
+					"numinlets" : 1
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"maxclass" : "newobj",
 					"text" : "thispatcher",
@@ -200,12 +237,16 @@
 				"box" : 				{
 					"maxclass" : "live.dial",
 					"varname" : "Cutoff 2 Relative",
-					"patching_rect" : [ 76.0, 212.0, 44.0, 47.0 ],
+					"patching_rect" : [ 76.0, 212.0, 44.0, 36.0 ],
+					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"numoutlets" : 2,
 					"presentation" : 1,
 					"parameter_enable" : 1,
+					"activedialcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"outlettype" : [ "", "float" ],
-					"presentation_rect" : [ 0.0, 0.0, 44.0, 47.0 ],
+					"activeneedlecolor" : [ 0.258824, 0.258824, 0.258824, 1.0 ],
+					"presentation_rect" : [ 0.0, 0.0, 44.0, 36.0 ],
+					"showname" : 0,
 					"id" : "obj-3",
 					"numinlets" : 1,
 					"saved_attribute_attributes" : 					{
@@ -241,12 +282,16 @@
 				"box" : 				{
 					"maxclass" : "live.dial",
 					"varname" : "Cutoff 2 Absolute",
-					"patching_rect" : [ 272.0, 212.0, 44.0, 47.0 ],
+					"patching_rect" : [ 272.0, 212.0, 44.0, 36.0 ],
+					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"numoutlets" : 2,
 					"presentation" : 1,
 					"parameter_enable" : 1,
+					"activedialcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"outlettype" : [ "", "float" ],
-					"presentation_rect" : [ 50.0, 0.0, 44.0, 47.0 ],
+					"activeneedlecolor" : [ 0.258824, 0.258824, 0.258824, 1.0 ],
+					"presentation_rect" : [ 50.0, 0.0, 44.0, 36.0 ],
+					"showname" : 0,
 					"id" : "obj-6",
 					"numinlets" : 1,
 					"saved_attribute_attributes" : 					{
