@@ -552,7 +552,7 @@
 , 			{
 				"box" : 				{
 					"maxclass" : "textedit",
-					"text" : "U6>PD]c>V@",
+					"text" : "DmodePadMS",
 					"lines" : 1,
 					"fontname" : "Arial",
 					"numinlets" : 1,
