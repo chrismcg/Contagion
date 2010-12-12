@@ -1,0 +1,3 @@
+Filter Link doesn't get set correctly when patches are sent from the Virus.
+Seems this is always 0 in the sysex even though the lights on the hardware are
+correct.
