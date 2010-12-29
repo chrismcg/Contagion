@@ -1,3 +1,4 @@
 Filter Link doesn't get set correctly when patches are sent from the Virus.
 Seems this is always 0 in the sysex even though the lights on the hardware are
 correct.
+Not supporting the OS4.5 stuff yet, need to figure out what sysex they send
